@@ -11,13 +11,28 @@ APT_PACKAGES=(
 )
 
 PIP_PACKAGES=(
-    #"package-1"
-    #"package-2"
+    "ftfy"
+    "diffusers"
 )
 
 NODES=(
-    #"https://github.com/ltdrdata/ComfyUI-Manager"
-    #"https://github.com/cubiq/ComfyUI_essentials"
+    "https://github.com/Acly/comfyui-inpaint-nodes"
+    "https://github.com/Acly/comfyui-tooling-nodes"
+    "https://github.com/chrisgoringe/cg-use-everywhere"
+    "https://github.com/crystian/ComfyUI-Crystools"
+    "https://github.com/cubiq/ComfyUI_essentials"
+    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+    "https://github.com/Fannovel16/comfyui_controlnet_aux"
+    "https://github.com/kijai/ComfyUI-Florence2"
+    "https://github.com/kijai/ComfyUI-FluxTrainer"
+    "https://github.com/kijai/ComfyUI-IC-Light"
+    "https://github.com/kijai/ComfyUI-KJNodes"
+    "https://github.com/ltdrdata/ComfyUI-Manager"
+    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+    "https://github.com/rgthree/rgthree-comfy"
+    "https://github.com/SeaArtLab/ComfyUI-Long-CLIP"
+    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
+    "https://github.com/yolain/ComfyUI-Easy-Use"
 )
 
 WORKFLOWS=(
@@ -25,7 +40,7 @@ WORKFLOWS=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16"
+    #"https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16"
 )
 
 UNET_MODELS=(
