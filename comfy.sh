@@ -27,11 +27,15 @@ NODES=(
     "https://github.com/kijai/ComfyUI-FluxTrainer"
     "https://github.com/kijai/ComfyUI-IC-Light"
     "https://github.com/kijai/ComfyUI-KJNodes"
+    "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
     "https://github.com/ltdrdata/ComfyUI-Manager"
+    "https://github.com/miaoshouai/ComfyUI-Miaoshouai-Tagger"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/rgthree/rgthree-comfy"
     "https://github.com/SeaArtLab/ComfyUI-Long-CLIP"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
+    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+    "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/yolain/ComfyUI-Easy-Use"
 )
 
