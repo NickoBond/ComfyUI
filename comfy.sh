@@ -25,6 +25,7 @@ NODES=(
     "https://github.com/Fannovel16/comfyui_controlnet_aux"
     "https://github.com/kijai/ComfyUI-Florence2"
     "https://github.com/kijai/ComfyUI-FluxTrainer"
+    "https://github.com/kijai/ComfyUI-HunyuanVideoWrapper"
     "https://github.com/kijai/ComfyUI-IC-Light"
     "https://github.com/kijai/ComfyUI-KJNodes"
     "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
