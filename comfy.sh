@@ -37,6 +37,7 @@ NODES=(
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/yolain/ComfyUI-Easy-Use"
+    "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
 )
 
 WORKFLOWS=(
