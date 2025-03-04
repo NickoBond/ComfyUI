@@ -45,6 +45,7 @@ NODES=(
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/rgthree/rgthree-comfy"
     "https://github.com/SeaArtLab/ComfyUI-Long-CLIP"
+    "https://github.com/shadowcz007/comfyui-mixlab-nodes"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     "https://github.com/WASasquatch/was-node-suite-comfyui"
