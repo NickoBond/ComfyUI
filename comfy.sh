@@ -27,6 +27,7 @@ NODES=(
     "https://github.com/kijai/ComfyUI-FluxTrainer"
     "https://github.com/kijai/ComfyUI-IC-Light"
     "https://github.com/kijai/ComfyUI-KJNodes"
+    "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
     "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/miaoshouai/ComfyUI-Miaoshouai-Tagger"
@@ -37,7 +38,6 @@ NODES=(
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/yolain/ComfyUI-Easy-Use"
-    "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
 )
 
 WORKFLOWS=(
