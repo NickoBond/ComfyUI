@@ -104,7 +104,7 @@ function provisioning_start() {
 
 function provisioning_get_apt_packages() {
     if [[ -n $APT_PACKAGES ]]; then
-            sudo apt-get install -y libegl1-mesa-dev ${APT_PACKAGES[@]}
+            sudo apt-get install -y ${APT_PACKAGES[@]}
     fi
 }
 
