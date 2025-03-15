@@ -46,6 +46,7 @@ NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/M1kep/ComfyLiterals"
     "https://github.com/miaoshouai/ComfyUI-Miaoshouai-Tagger"
+    "https://github.com/Nourepide/ComfyUI-Allor"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/rgthree/rgthree-comfy"
     "https://github.com/SeaArtLab/ComfyUI-Long-CLIP"
