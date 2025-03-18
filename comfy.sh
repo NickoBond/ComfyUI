@@ -35,6 +35,7 @@ NODES=(
     "https://github.com/giriss/comfy-image-saver"
     "https://github.com/huanngzh/ComfyUI-MVAdapter"
     "https://github.com/jamesWalker55/comfyui-various"
+    "https://github.com/Jonseed/ComfyUI-Detail-Daemon"
     "https://github.com/kale4eat/ComfyUI-string-util"
     "https://github.com/kijai/ComfyUI-Florence2"
     "https://github.com/kijai/ComfyUI-FluxTrainer"
