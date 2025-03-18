@@ -56,6 +56,13 @@ NODES=(
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/yolain/ComfyUI-Easy-Use"
+    "https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait"
+    "https://github.com/huanngzh/ComfyUI-MVAdapter"
+    "https://github.com/giriss/comfy-image-saver"
+    "https://github.com/spacepxl/ComfyUI-Image-Filters"
+    "https://github.com/lldacing/ComfyUI_BiRefNet_ll"
+    "https://github.com/ltdrdata/ComfyUI-Impact-Subpack"
+    "https://github.com/liusida/ComfyUI-AutoCropFaces"
 )
 WORKFLOWS=(
 
