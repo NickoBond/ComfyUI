@@ -6,67 +6,20 @@ COMFYUI_DIR=${WORKSPACE}/ComfyUI
 # Packages are installed after nodes so we can fix them...
 
 APT_PACKAGES=(
-    "libegl1-mesa-dev"
+    #"package-1"
     #"package-2"
 )
 
 PIP_PACKAGES=(
-    "ftfy"
-    "diffusers"
 )
 
 NODES=(
     "https://github.com/Acly/comfyui-inpaint-nodes"
     "https://github.com/Acly/comfyui-tooling-nodes"
-    "https://github.com/akatz-ai/ComfyUI-Depthflow-Nodes"
-    "https://github.com/benjiyaya/ComfyUI-HunyuanVideoImagesGuider"
-    "https://github.com/Chaoses-Ib/ComfyUI_Ib_CustomNodes"
-    "https://github.com/chflame163/ComfyUI_LayerStyle"
-    "https://github.com/chrisgoringe/cg-use-everywhere"
-    "https://github.com/city96/ComfyUI-GGUF"
-    "https://github.com/crystian/ComfyUI-Crystools"
-    "https://github.com/cubiq/ComfyUI_essentials"
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
-    "https://github.com/CY-CHENYUE/ComfyUI-Janus-Pro"
-    "https://github.com/edenartlab/eden_comfy_pipelines"
-    "https://github.com/evanspearman/ComfyMath"
-    "https://github.com/facok/ComfyUI-HunyuanVideoMultiLora"
     "https://github.com/Fannovel16/comfyui_controlnet_aux"
-    "https://github.com/giriss/comfy-image-saver"
-    "https://github.com/huanngzh/ComfyUI-MVAdapter"
-    "https://github.com/jamesWalker55/comfyui-various"
-    "https://github.com/Jonseed/ComfyUI-Detail-Daemon"
-    "https://github.com/kale4eat/ComfyUI-string-util"
-    "https://github.com/kijai/ComfyUI-Florence2"
-    "https://github.com/kijai/ComfyUI-FluxTrainer"
-    "https://github.com/kijai/ComfyUI-HunyuanVideoWrapper"
-    "https://github.com/kijai/ComfyUI-IC-Light"
-    "https://github.com/kijai/ComfyUI-KJNodes"
-    "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
-    "https://github.com/liusida/ComfyUI-AutoCropFaces"
-    "https://github.com/lldacing/ComfyUI_BiRefNet_ll"
-    "https://github.com/lldacing/ComfyUI_Patches_ll"
-    "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
-    "https://github.com/ltdrdata/ComfyUI-Impact-Subpack"
-    "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
-    "https://github.com/ltdrdata/ComfyUI-Manager"
-    "https://github.com/M1kep/ComfyLiterals"
-    "https://github.com/miaoshouai/ComfyUI-Miaoshouai-Tagger"
-    "https://github.com/Nourepide/ComfyUI-Allor"
-    "https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait"
-    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
-    "https://github.com/rgthree/rgthree-comfy"
-    "https://github.com/SeaArtLab/ComfyUI-Long-CLIP"
-    "https://github.com/shadowcz007/comfyui-mixlab-nodes"
-    "https://github.com/SipherAGI/comfyui-animatediff"
-    "https://github.com/spacepxl/ComfyUI-Image-Filters"
-    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
-    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
-    "https://github.com/WASasquatch/was-node-suite-comfyui"
-    "https://github.com/yolain/ComfyUI-Easy-Use"
 )
 WORKFLOWS=(
-
 )
 
 CHECKPOINT_MODELS=(
