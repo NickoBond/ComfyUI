@@ -6,7 +6,7 @@ COMFYUI_DIR=${WORKSPACE}/ComfyUI
 # Packages are installed after nodes so we can fix them...
 
 APT_PACKAGES=(
-    #"package-1"
+    "libegl1-mesa-dev"
     #"package-2"
 )
 
