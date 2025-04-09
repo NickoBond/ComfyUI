@@ -11,6 +11,8 @@ APT_PACKAGES=(
 )
 
 PIP_PACKAGES=(
+    "ftfy"
+    "diffusers"
 )
 
 NODES=(
