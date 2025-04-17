@@ -49,7 +49,7 @@ NODES=(
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
     "https://github.com/ltdrdata/ComfyUI-Impact-Subpack"
     "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
-    "https://github.com/ltdrdata/ComfyUI-Manager"
+    "https://github.com/ltdrdata/ComfyUI-Manager comfyui-manager"
     "https://github.com/M1kep/ComfyLiterals"
     "https://github.com/miaoshouai/ComfyUI-Miaoshouai-Tagger"
     "https://github.com/Nourepide/ComfyUI-Allor"
