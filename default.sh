@@ -23,6 +23,7 @@ NODES=(
     "https://github.com/crystian/ComfyUI-Crystools"
     "https://github.com/dfl/comfyui-tdd"
     "https://github.com/kijai/ComfyUI-KJNodes"
+    "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
     "https://github.com/licyk/ComfyUI-TCD-Sampler"
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery"
