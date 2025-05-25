@@ -27,6 +27,7 @@ NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery"
     "https://github.com/pamparamm/sd-perturbed-attention"
+    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/rgthree/rgthree-comfy"
 )
 
