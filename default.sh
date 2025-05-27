@@ -12,6 +12,7 @@ APT_PACKAGES=(
 PIP_PACKAGES=(
     "diffusers"
     "ftfy"
+    "onnxruntime"
     "xformers"
 )
 
