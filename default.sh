@@ -12,6 +12,7 @@ APT_PACKAGES=(
 PIP_PACKAGES=(
     "diffusers"
     "ftfy"
+    "gradio_client"
     "onnxruntime"
     "xformers"
 )
