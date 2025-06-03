@@ -32,6 +32,7 @@ NODES=(
     "https://github.com/pamparamm/sd-perturbed-attention"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/rgthree/rgthree-comfy"
+    "https://github.com/SeaArtLab/ComfyUI-Long-CLIP"
 )
 
 WORKFLOWS=(
