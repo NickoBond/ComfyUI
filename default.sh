@@ -14,6 +14,7 @@ PIP_PACKAGES=(
     "ftfy"
     "gradio_client"
     "onnxruntime"
+    "sageattention"
     "xformers"
 )
 
