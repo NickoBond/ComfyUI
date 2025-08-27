@@ -10,30 +10,12 @@ APT_PACKAGES=(
 )
 
 PIP_PACKAGES=(
-    "diffusers"
     "ftfy"
-    "gradio_client"
-    "onnxruntime"
-    "sageattention"
-    "xformers"
 )
 
 NODES=(
-    "https://github.com/aidenli/ComfyUI_NYJY"
-    "https://github.com/changwook987/ComfyUI-Small-Utility"
-    "https://github.com/chrisgoringe/cg-use-everywhere"
-    "https://github.com/Clybius/ComfyUI-Extra-Samplers"
-    "https://github.com/crystian/ComfyUI-Crystools"
-    "https://github.com/dfl/comfyui-tdd"
-    "https://github.com/kijai/ComfyUI-KJNodes"
-    "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
-    "https://github.com/licyk/ComfyUI-TCD-Sampler"
-    "https://github.com/ltdrdata/ComfyUI-Manager"
-    "https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery"
-    "https://github.com/pamparamm/sd-perturbed-attention"
-    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
-    "https://github.com/rgthree/rgthree-comfy"
-    "https://github.com/SeaArtLab/ComfyUI-Long-CLIP"
+    #"https://github.com/ltdrdata/ComfyUI-Manager"
+    #"https://github.com/cubiq/ComfyUI_essentials"
 )
 
 WORKFLOWS=(
