@@ -25,7 +25,6 @@ NODES=(
 )
 
 WORKFLOWS=(
-
 )
 
 CHECKPOINT_MODELS=(
