@@ -54,6 +54,7 @@ DIFFUSION_MODELS=(
 TEXTENCODER_MODELS=(
     "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
     "https://huggingface.co/easygoing0114/flan-t5-xxl-fused/resolve/main/flan_t5_xxl_TE-only_FP32.safetensors"
+    "https://huggingface.co/openai/clip-vit-large-patch14-336/resolve/main/pytorch_model.bin"
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
