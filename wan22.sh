@@ -11,6 +11,7 @@ APT_PACKAGES=(
 )
 
 PIP_PACKAGES=(
+    "flash-attn"
     "ftfy"
 )
 
