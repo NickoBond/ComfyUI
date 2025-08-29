@@ -11,8 +11,9 @@ APT_PACKAGES=(
 )
 
 PIP_PACKAGES=(
-    "flash-attn"
+    "flash_attn"
     "ftfy"
+    "sageattention"
 )
 
 NODES=(
