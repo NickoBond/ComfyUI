@@ -11,8 +11,8 @@ APT_PACKAGES=(
 )
 
 PIP_PACKAGES=(
-    "ftfy"
     "flash_attn"
+    "ftfy"
 )
 
 NODES=(
