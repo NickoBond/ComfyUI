@@ -18,6 +18,8 @@ NODES=(
     "https://github.com/aidenli/ComfyUI_NYJY"
     "https://github.com/changwook987/ComfyUI-Small-Utility"
     "https://github.com/crystian/ComfyUI-Crystools"
+    "https://github.com/Fannovel16/comfyui_controlnet_aux"
+    "https://github.com/kijai/ComfyUI-DepthAnythingV2"
     "https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/rgthree/rgthree-comfy"
