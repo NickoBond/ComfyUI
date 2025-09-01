@@ -96,6 +96,9 @@ function provisioning_start() {
     provisioning_get_files \
         "${COMFYUI_DIR}/models/text_encoders" \
         "${TEXTENCODER_MODELS[@]}"
+    provisioning_get_files \
+        "${COMFYUI_DIR}/models/diffusers" \
+        "${DIFFUSERS_MODELS[@]}"
     provisioning_print_end
 }
 
