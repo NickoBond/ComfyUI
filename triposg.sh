@@ -13,6 +13,7 @@ APT_PACKAGES=(
 PIP_PACKAGES=(
     "ftfy"
     "sageattention"
+    "xformers"
 )
 
 NODES=(
