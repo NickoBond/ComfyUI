@@ -23,6 +23,7 @@ NODES=(
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/rgthree/rgthree-comfy"
 
+    "https://github.com/cubiq/ComfyUI_essentials"
     "https://github.com/fredconex/ComfyUI-TripoSG"
     "https://github.com/ltdrdata/was-node-suite-comfyui"
 )    
