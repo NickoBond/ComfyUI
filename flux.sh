@@ -18,7 +18,6 @@ PIP_PACKAGES=(
 
 NODES=(
     "https://github.com/aidenli/ComfyUI_NYJY"
-    "https://github.com/changwook987/ComfyUI-Small-Utility"
     "https://github.com/chrisgoringe/cg-use-everywhere"
     "https://github.com/crystian/ComfyUI-Crystools"
     "https://github.com/Fannovel16/comfyui_controlnet_aux"
@@ -28,7 +27,6 @@ NODES=(
     "https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/rgthree/rgthree-comfy"
-    "https://github.com/zhangp365/comfyui-utils-nodes"
 )
 
 WORKFLOWS=(
