@@ -98,7 +98,7 @@ function provisioning_start() {
         "${COMFYUI_DIR}/models/diffusers" \
         "${DIFFUSERS_MODELS[@]}"
 
-git clone https://huggingface.co/VAST-AI/TripoSG "${COMFYUI_DIR}/models/diffusers"
+git clone https://huggingface.co/VAST-AI/TripoSG "${COMFYUI_DIR}/models/diffusers/TripoSG"
 
     provisioning_print_end
 }
