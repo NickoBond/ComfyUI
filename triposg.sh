@@ -17,21 +17,14 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-#    "https://github.com/aidenli/ComfyUI_NYJY"
-#    "https://github.com/changwook987/ComfyUI-Small-Utility"
-#    "https://github.com/chrisgoringe/cg-use-everywhere"
+    "https://github.com/chrisgoringe/cg-use-everywhere"
     "https://github.com/crystian/ComfyUI-Crystools"
-#    "https://github.com/Fannovel16/comfyui_controlnet_aux"
-#    "https://github.com/kijai/ComfyUI-DepthAnythingV2"
-#    "https://github.com/kijai/ComfyUI-Florence2"
-#    "https://github.com/miaoshouai/ComfyUI-Miaoshouai-Tagger"
+    "https://github.com/fredconex/ComfyUI-TripoSG"
+    "https://github.com/ltdrdata/was-node-suite-comfyui"
     "https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/rgthree/rgthree-comfy"
-#    "https://github.com/zhangp365/comfyui-utils-nodes"
-    "https://github.com/fredconex/ComfyUI-TripoSG"
-    "https://github.com/ltdrdata/was-node-suite-comfyui"
-)
+)    
 
 WORKFLOWS=(
 )
