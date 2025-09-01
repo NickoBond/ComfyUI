@@ -100,7 +100,6 @@ function provisioning_start() {
 
 git clone https://huggingface.co/VAST-AI/TripoSG "${COMFYUI_DIR}/models/diffusers"
 
-
     provisioning_print_end
 }
 
