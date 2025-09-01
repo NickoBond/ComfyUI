@@ -30,6 +30,7 @@ NODES=(
     "https://github.com/rgthree/rgthree-comfy"
     "https://github.com/zhangp365/comfyui-utils-nodes"
     "https://github.com/fredconex/ComfyUI-TripoSG"
+    "https://github.com/ltdrdata/was-node-suite-comfyui"
 )
 
 WORKFLOWS=(
