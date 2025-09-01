@@ -19,11 +19,12 @@ PIP_PACKAGES=(
 NODES=(
     "https://github.com/chrisgoringe/cg-use-everywhere"
     "https://github.com/crystian/ComfyUI-Crystools"
-    "https://github.com/fredconex/ComfyUI-TripoSG"
-    "https://github.com/ltdrdata/was-node-suite-comfyui"
     "https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/rgthree/rgthree-comfy"
+
+    "https://github.com/fredconex/ComfyUI-TripoSG"
+    "https://github.com/ltdrdata/was-node-suite-comfyui"
 )    
 
 WORKFLOWS=(
