@@ -36,31 +36,38 @@ WORKFLOWS=(
 CHECKPOINT_MODELS=(
 )
 
-UNET_MODELS=(
-    "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors"
-)
-
-LORA_MODELS=(
-)
-
-VAE_MODELS=(
-    "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors"
-)
-
-ESRGAN_MODELS=(
+CLIPVISION_MODELS=(
+    "https://huggingface.co/Comfy-Org/sigclip_vision_384/resolve/main/sigclip_vision_patch14_384.safetensors"
 )
 
 CONTROLNET_MODELS=(
     "https://huggingface.co/Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro-2.0/resolve/main/diffusion_pytorch_model.safetensors"
 )
 
+DIFFUSERS_MODELS=(
+)
+
 DIFFUSION_MODELS=(
+)
+
+ESRGAN_MODELS=(
+)
+
+LORA_MODELS=(
 )
 
 TEXTENCODER_MODELS=(
     "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
     "https://huggingface.co/easygoing0114/flan-t5-xxl-fused/resolve/main/flan_t5_xxl_TE-only_FP32.safetensors"
     "https://huggingface.co/openai/clip-vit-large-patch14-336/resolve/main/pytorch_model.bin"
+)
+
+UNET_MODELS=(
+    "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors"
+)
+
+VAE_MODELS=(
+    "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors"
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
@@ -70,33 +77,38 @@ function provisioning_start() {
     provisioning_get_apt_packages
     provisioning_get_nodes
     provisioning_get_pip_packages
+
     provisioning_get_files \
         "${COMFYUI_DIR}/models/checkpoints" \
         "${CHECKPOINT_MODELS[@]}"
     provisioning_get_files \
-        "${COMFYUI_DIR}/models/unet" \
-        "${UNET_MODELS[@]}"
-    provisioning_get_files \
-        "${COMFYUI_DIR}/models/loras" \
-        "${LORA_MODELS[@]}"
+        "${COMFYUI_DIR}/models/clip_vision" \
+        "${CLIPVISION_MODELS[@]}"
     provisioning_get_files \
         "${COMFYUI_DIR}/models/controlnet" \
         "${CONTROLNET_MODELS[@]}"
     provisioning_get_files \
-        "${COMFYUI_DIR}/models/vae" \
-        "${VAE_MODELS[@]}"
-    provisioning_get_files \
-        "${COMFYUI_DIR}/models/esrgan" \
-        "${ESRGAN_MODELS[@]}"
+        "${COMFYUI_DIR}/models/diffusers" \
+        "${DIFFUSERS_MODELS[@]}"
     provisioning_get_files \
         "${COMFYUI_DIR}/models/diffusion_models" \
         "${DIFFUSION_MODELS[@]}"
     provisioning_get_files \
+        "${COMFYUI_DIR}/models/esrgan" \
+        "${ESRGAN_MODELS[@]}"
+    provisioning_get_files \
+        "${COMFYUI_DIR}/models/loras" \
+        "${LORA_MODELS[@]}"
+    provisioning_get_files \
         "${COMFYUI_DIR}/models/text_encoders" \
         "${TEXTENCODER_MODELS[@]}"
     provisioning_get_files \
-        "${COMFYUI_DIR}/models/diffusers" \
-        "${DIFFUSERS_MODELS[@]}"
+        "${COMFYUI_DIR}/models/unet" \
+        "${UNET_MODELS[@]}"
+    provisioning_get_files \
+        "${COMFYUI_DIR}/models/vae" \
+        "${VAE_MODELS[@]}"
+
     provisioning_print_end
 }
 
