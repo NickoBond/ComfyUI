@@ -65,33 +65,38 @@ function provisioning_start() {
     provisioning_get_apt_packages
     provisioning_get_nodes
     provisioning_get_pip_packages
+
     provisioning_get_files \
         "${COMFYUI_DIR}/models/checkpoints" \
         "${CHECKPOINT_MODELS[@]}"
     provisioning_get_files \
-        "${COMFYUI_DIR}/models/unet" \
-        "${UNET_MODELS[@]}"
-    provisioning_get_files \
-        "${COMFYUI_DIR}/models/loras" \
-        "${LORA_MODELS[@]}"
+        "${COMFYUI_DIR}/models/clip_vision" \
+        "${CLIPVISION_MODELS[@]}"
     provisioning_get_files \
         "${COMFYUI_DIR}/models/controlnet" \
         "${CONTROLNET_MODELS[@]}"
     provisioning_get_files \
-        "${COMFYUI_DIR}/models/vae" \
-        "${VAE_MODELS[@]}"
-    provisioning_get_files \
-        "${COMFYUI_DIR}/models/esrgan" \
-        "${ESRGAN_MODELS[@]}"
+        "${COMFYUI_DIR}/models/diffusers" \
+        "${DIFFUSERS_MODELS[@]}"
     provisioning_get_files \
         "${COMFYUI_DIR}/models/diffusion_models" \
         "${DIFFUSION_MODELS[@]}"
     provisioning_get_files \
+        "${COMFYUI_DIR}/models/esrgan" \
+        "${ESRGAN_MODELS[@]}"
+    provisioning_get_files \
+        "${COMFYUI_DIR}/models/loras" \
+        "${LORA_MODELS[@]}"
+    provisioning_get_files \
         "${COMFYUI_DIR}/models/text_encoders" \
         "${TEXTENCODER_MODELS[@]}"
     provisioning_get_files \
-        "${COMFYUI_DIR}/models/diffusers" \
-        "${DIFFUSERS_MODELS[@]}"
+        "${COMFYUI_DIR}/models/unet" \
+        "${UNET_MODELS[@]}"
+    provisioning_get_files \
+        "${COMFYUI_DIR}/models/vae" \
+        "${VAE_MODELS[@]}"
+
     provisioning_print_end
 }
 
