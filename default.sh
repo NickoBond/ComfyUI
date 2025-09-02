@@ -28,31 +28,33 @@ WORKFLOWS=(
 )
 
 CHECKPOINT_MODELS=(
-    #"https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16"
 )
 
-UNET_MODELS=(
-)
-
-LORA_MODELS=(
-)
-
-VAE_MODELS=(
-)
-
-ESRGAN_MODELS=(
+CLIPVISION_MODELS=(
 )
 
 CONTROLNET_MODELS=(
 )
 
+DIFFUSERS_MODELS=(
+)
+
 DIFFUSION_MODELS=(
+)
+
+ESRGAN_MODELS=(
+)
+
+LORA_MODELS=(
 )
 
 TEXTENCODER_MODELS=(
 )
 
-DIFFUSERS_MODELS=(
+UNET_MODELS=(
+)
+
+VAE_MODELS=(
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
