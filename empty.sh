@@ -11,8 +11,10 @@ APT_PACKAGES=(
 )
 
 PIP_PACKAGES=(
-    "ftfy"
     "diffusers"
+    "ftfy"
+    "onnx"
+    "onnxruntime-gpu"
 )
 
 NODES=(
