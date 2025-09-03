@@ -13,6 +13,8 @@ APT_PACKAGES=(
 PIP_PACKAGES=(
     "ftfy"
     "sageattention"
+    "onnx"
+    "onnxruntime-gpu"
 )
 
 NODES=(
