@@ -32,6 +32,9 @@ NODES=(
 WORKFLOWS=(
 )
 
+AUDIOENCODER_MODELS=(
+)
+
 CHECKPOINT_MODELS=(
 )
 
@@ -70,6 +73,9 @@ function provisioning_start() {
     provisioning_get_nodes
     provisioning_get_pip_packages
 
+    provisioning_get_files \
+        "${COMFYUI_DIR}/models/audio_encoders" \
+        "${AUDIOENCODER_MODELS[@]}"
     provisioning_get_files \
         "${COMFYUI_DIR}/models/checkpoints" \
         "${CHECKPOINT_MODELS[@]}"
